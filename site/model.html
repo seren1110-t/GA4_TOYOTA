@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>모델 상세 | TOYOMO</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/config.js"></script>
+  <script src="assets/models.js"></script>
+  <script src="assets/app.js"></script>
+</head>
+<body data-page="model">
+  <header id="site-header"></header>
+
+  <div class="detail-hero" id="detail-hero">
+    <div class="wrap">
+      <h1 id="model-name"></h1>
+      <p id="model-tagline"></p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="specs">
+        <div class="spec"><div class="k">차종</div><div class="v" id="model-cat"></div></div>
+        <div class="spec"><div class="k">가격</div><div class="v" id="model-price"></div></div>
+        <div class="spec"><div class="k">파워트레인</div><div class="v" id="model-fuel"></div></div>
+        <div class="spec"><div class="k">복합연비</div><div class="v" id="model-eff"></div></div>
+        <div class="spec"><div class="k">승차 인원</div><div class="v" id="model-seats"></div></div>
+      </div>
+      <div class="detail-actions">
+        <a class="btn btn-primary" id="btn-test-drive" href="test-drive.html" data-track="cta_click" data-cta="detail_test_drive" data-model="">이 모델 시승 신청</a>
+        <a class="btn btn-ghost" href="#" onclick="return false" data-track="catalog_download" data-model="" data-file-name="catalog.pdf">카탈로그 다운로드</a>
+        <a class="btn btn-ghost" href="index.html#dealers" data-track="cta_click" data-cta="detail_find_dealer" data-model="">전시장 찾기</a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>시승 신청 | TOYOMO</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/config.js"></script>
+  <script src="assets/models.js"></script>
+  <script src="assets/app.js"></script>
+</head>
+<body data-page="testDrive">
+  <header id="site-header"></header>
+
+  <section>
+    <div class="wrap">
+      <h2>시승 신청</h2>
+      <p class="sub">신청하시면 선택한 전시장에서 하루 안에 연락드려요.</p>
+
+      <form class="form" id="lead-form" novalidate>
+        <div class="row" data-field="name">
+          <label for="f-name">이름</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" placeholder="홍길동">
+          <span class="error">이름을 입력해 주세요.</span>
+        </div>
+        <div class="row" data-field="phone">
+          <label for="f-phone">휴대폰 번호</label>
+          <input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="010-1234-5678">
+          <span class="hint">연습용 사이트예요. 실제 번호를 넣지 않아도 형식만 맞으면 돼요.</span>
+          <span class="error">휴대폰 번호 형식을 확인해 주세요.</span>
+        </div>
+        <div class="row" data-field="email">
+          <label for="f-email">이메일</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+          <span class="error">이메일 형식을 확인해 주세요.</span>
+        </div>
+        <div class="row" data-field="model">
+          <label for="f-model">관심 모델</label>
+          <select id="f-model" name="model"></select>
+          <span class="error">관심 모델을 선택해 주세요.</span>
+        </div>
+        <div class="row" data-field="region">
+          <label for="f-region">지역 / 전시장</label>
+          <select id="f-region" name="region"></select>
+          <span class="error">지역을 선택해 주세요.</span>
+        </div>
+        <div class="row" data-field="date">
+          <label for="f-date">희망 시승일</label>
+          <input id="f-date" name="date" type="date">
+          <span class="error">희망 시승일을 선택해 주세요.</span>
+        </div>
+        <div class="row check" data-field="consent">
+          <input id="f-consent" name="consent" type="checkbox">
+          <label for="f-consent">개인정보 수집·이용에 동의합니다. (시승 예약 및 상담 목적, 보관 1년)</label>
+          <span class="error">동의가 필요해요.</span>
+        </div>
+        <button class="btn btn-primary" type="submit">시승 신청 완료</button>
+      </form>
+    </div>
+  </section>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

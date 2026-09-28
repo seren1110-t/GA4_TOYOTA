@@ -1,0 +1,272 @@
+{
+  "exportFormatVersion": 2,
+  "exportTime": "2026-09-28 06:30:00",
+  "containerVersion": {
+    "path": "accounts/6379284197/containers/265410863/versions/0",
+    "accountId": "6379284197",
+    "containerId": "265410863",
+    "containerVersionId": "0",
+    "name": "TOYOMO GA4 setup (imported)",
+    "description": "GA4 config + event tags for the TOYOMO practice site. Generated from docs/measurement-plan.md.",
+    "container": {
+      "path": "accounts/6379284197/containers/265410863",
+      "accountId": "6379284197",
+      "containerId": "265410863",
+      "name": "toyomo-web",
+      "publicId": "GTM-54K728DZ",
+      "usageContext": ["WEB"]
+    },
+    "tag": [
+      {
+        "accountId": "6379284197",
+        "containerId": "265410863",
+        "tagId": "1",
+        "name": "GA4 - Google 태그 (config)",
+        "type": "googtag",
+        "parameter": [
+          { "type": "TEMPLATE", "key": "tagId", "value": "G-G6Q8S0SC89" },
+          {
+            "type": "LIST",
+            "key": "configSettingsTable",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  { "type": "TEMPLATE", "key": "parameter", "value": "user_id" },
+                  { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - user_id}}" }
+                ]
+              }
+            ]
+          }
+        ],
+        "firingTriggerId": ["2147479553"],
+        "tagFiringOption": "ONCE_PER_EVENT"
+      },
+      {
+        "accountId": "6379284197",
+        "containerId": "265410863",
+        "tagId": "2",
+        "name": "GA4 - Ecommerce events (view_item_list / select_item / view_item)",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "sendEcommerceData", "value": "true" },
+          { "type": "TEMPLATE", "key": "getEcommerceDataFrom", "value": "dataLayer" },
+          { "type": "TEMPLATE", "key": "eventName", "value": "{{Event}}" },
+          { "type": "TEMPLATE", "key": "measurementIdOverride", "value": "G-G6Q8S0SC89" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "item_list_id" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - item_list_id}}" } ] }
+            ]
+          }
+        ],
+        "firingTriggerId": ["1"],
+        "tagFiringOption": "ONCE_PER_EVENT"
+      },
+      {
+        "accountId": "6379284197",
+        "containerId": "265410863",
+        "tagId": "3",
+        "name": "GA4 - Site interaction events",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "sendEcommerceData", "value": "false" },
+          { "type": "TEMPLATE", "key": "eventName", "value": "{{Event}}" },
+          { "type": "TEMPLATE", "key": "measurementIdOverride", "value": "G-G6Q8S0SC89" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "cta" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - cta}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "nav" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - nav}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "location" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - location}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "model" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - model}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "model_id" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - model_id}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "region" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - region}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "dealer_name" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - dealer_name}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "file_name" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - file_name}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "form_id" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - form_id}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "field" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - field}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "field_value" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - field_value}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "invalid_fields" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - invalid_fields}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "lead_id" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - lead_id}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "page_type" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - page_type}}" } ] }
+            ]
+          }
+        ],
+        "firingTriggerId": ["2"],
+        "tagFiringOption": "ONCE_PER_EVENT"
+      },
+      {
+        "accountId": "6379284197",
+        "containerId": "265410863",
+        "tagId": "4",
+        "name": "GA4 - generate_lead (전환)",
+        "type": "gaawe",
+        "parameter": [
+          { "type": "BOOLEAN", "key": "sendEcommerceData", "value": "false" },
+          { "type": "TEMPLATE", "key": "eventName", "value": "generate_lead" },
+          { "type": "TEMPLATE", "key": "measurementIdOverride", "value": "G-G6Q8S0SC89" },
+          {
+            "type": "LIST",
+            "key": "eventSettingsTable",
+            "list": [
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "lead_id" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - lead_id}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "model_id" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - model_id}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "region" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - region}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "dealer_name" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - dealer_name}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "currency" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - currency}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "value" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - value}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "first_touch_source" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - first_touch_source}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "first_touch_medium" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - first_touch_medium}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "parameter", "value": "first_touch_campaign" },
+                { "type": "TEMPLATE", "key": "parameterValue", "value": "{{DL - first_touch_campaign}}" } ] }
+            ]
+          },
+          {
+            "type": "LIST",
+            "key": "userProperties",
+            "list": [
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "interest_model" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DL - model_id}}" } ] },
+              { "type": "MAP", "map": [
+                { "type": "TEMPLATE", "key": "name", "value": "home_region" },
+                { "type": "TEMPLATE", "key": "value", "value": "{{DL - region}}" } ] }
+            ]
+          }
+        ],
+        "firingTriggerId": ["3"],
+        "tagFiringOption": "ONCE_PER_EVENT"
+      }
+    ],
+    "trigger": [
+      {
+        "accountId": "6379284197",
+        "containerId": "265410863",
+        "triggerId": "1",
+        "name": "CE - Ecommerce events",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "MATCH_REGEX",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "^(view_item_list|select_item|view_item)$" }
+            ]
+          }
+        ]
+      },
+      {
+        "accountId": "6379284197",
+        "containerId": "265410863",
+        "triggerId": "2",
+        "name": "CE - Site interaction events",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "MATCH_REGEX",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "^(cta_click|nav_click|click_call|catalog_download|dealer_search|lead_form_start|lead_form_select|lead_form_error|lead_form_submit)$" }
+            ]
+          }
+        ]
+      },
+      {
+        "accountId": "6379284197",
+        "containerId": "265410863",
+        "triggerId": "3",
+        "name": "CE - generate_lead",
+        "type": "CUSTOM_EVENT",
+        "customEventFilter": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              { "type": "TEMPLATE", "key": "arg0", "value": "{{_event}}" },
+              { "type": "TEMPLATE", "key": "arg1", "value": "generate_lead" }
+            ]
+          }
+        ]
+      }
+    ],
+    "variable": [
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "1",  "name": "DL - user_id",             "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "user_id" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "2",  "name": "DL - item_list_id",        "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "item_list_id" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "3",  "name": "DL - cta",                 "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "cta" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "4",  "name": "DL - nav",                 "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "nav" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "5",  "name": "DL - location",            "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "location" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "6",  "name": "DL - model",               "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "model" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "7",  "name": "DL - model_id",            "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "model_id" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "8",  "name": "DL - region",              "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "region" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "9",  "name": "DL - dealer_name",         "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "dealer_name" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "10", "name": "DL - file_name",           "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "file_name" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "11", "name": "DL - form_id",             "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "form_id" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "12", "name": "DL - field",               "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "field" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "13", "name": "DL - field_value",         "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "field_value" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "14", "name": "DL - invalid_fields",      "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "invalid_fields" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "15", "name": "DL - lead_id",             "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "lead_id" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "16", "name": "DL - page_type",           "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "page_type" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "17", "name": "DL - currency",            "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "currency" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "18", "name": "DL - value",               "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "value" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "19", "name": "DL - first_touch_source",  "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "first_touch_source" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "20", "name": "DL - first_touch_medium",  "type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "first_touch_medium" } ] },
+      { "accountId": "6379284197", "containerId": "265410863", "variableId": "21", "name": "DL - first_touch_campaign","type": "v", "parameter": [ { "type": "INTEGER", "key": "dataLayerVersion", "value": "2" }, { "type": "BOOLEAN", "key": "setDefaultValue", "value": "false" }, { "type": "TEMPLATE", "key": "name", "value": "first_touch_campaign" } ] }
+    ],
+    "builtInVariable": [
+      { "accountId": "6379284197", "containerId": "265410863", "type": "PAGE_URL", "name": "Page URL" },
+      { "accountId": "6379284197", "containerId": "265410863", "type": "PAGE_HOSTNAME", "name": "Page Hostname" },
+      { "accountId": "6379284197", "containerId": "265410863", "type": "PAGE_PATH", "name": "Page Path" },
+      { "accountId": "6379284197", "containerId": "265410863", "type": "REFERRER", "name": "Referrer" },
+      { "accountId": "6379284197", "containerId": "265410863", "type": "EVENT", "name": "Event" }
+    ]
+  }
+}

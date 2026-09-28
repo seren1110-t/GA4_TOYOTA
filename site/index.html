@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TOYOMO | 새로운 드라이빙의 시작</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/config.js"></script>
+  <script src="assets/models.js"></script>
+  <script src="assets/app.js"></script>
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>매일의 이동을<br>조금 더 특별하게</h1>
+      <p>세단부터 7인승 미니밴까지, TOYOMO 라인업을 가까운 전시장에서 직접 경험해 보세요.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="test-drive.html" data-track="cta_click" data-cta="hero_test_drive">시승 신청하기</a>
+        <a class="btn btn-ghost" href="models.html" data-track="cta_click" data-cta="hero_view_models">모델 둘러보기</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>라인업</h2>
+      <p class="sub">취향과 라이프스타일에 맞는 모델을 골라보세요.</p>
+      <div class="grid" id="home-lineup"></div>
+    </div>
+  </section>
+
+  <section id="dealers" style="background: var(--bg-soft)">
+    <div class="wrap">
+      <h2>전시장 찾기</h2>
+      <p class="sub">가까운 전시장에서 상담과 시승을 도와드려요.</p>
+      <div class="finder">
+        <select id="region-select"></select>
+        <button class="btn btn-primary btn-sm" id="find-dealer" type="button">전시장 찾기</button>
+      </div>
+      <div class="finder-result" id="dealer-result"></div>
+    </div>
+  </section>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>
