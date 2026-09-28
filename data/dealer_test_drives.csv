@@ -1,0 +1,19 @@
+test_drive_id,customer_id,dealer,model,test_drive_date,sales_rep,satisfaction,web_lead_id
+TD00001,C69CE05961B9B,서울 강남 전시장,ravon,2026-09-29,김대리,5,LMUKY5ZZX0YLC
+TD00002,C7B6B8E0B64FA,인천 송도 전시장,ravon,2026-10-02,김대리,5,LMUKY6CUBAD8F
+TD00003,CD9C798D966D5,서울 강남 전시장,prima,2026-10-05,김대리,5,LMUKY8V339I56
+TD00004,CF80E360C12E2,대구 수성 전시장,ravon,2026-10-09,이과장,3,LMUKYAF4RZ2CA
+TD00005,C712BAF74BDE1,대구 수성 전시장,ceres,2026-09-30,정사원,3,LMUKYB8AQIHXV
+TD00006,C57455088AC05,대구 수성 전시장,vento,2026-10-02,이과장,5,LMUKYBYYVWIY5
+TD00007,C975FAD332BC1,대구 수성 전시장,ravon,2026-09-10,박주임,4,
+TD00008,C17E641B3CB54,인천 송도 전시장,ceres,2026-09-19,김대리,5,
+TD00009,C386A29F4ABE6,대전 둔산 전시장,prima,2026-09-22,김대리,5,
+TD00010,C8E8C66B7C23B,분당 판교 전시장,vento,2026-09-15,김대리,4,
+TD00011,C2096C6EB7B40,대전 둔산 전시장,ravon,2026-09-21,이과장,3,
+TD00012,CCF7EE05F4A9A,인천 송도 전시장,vento,2026-09-17,정사원,4,
+TD00013,CF2AC4A65FAB5,대전 둔산 전시장,vento,2026-09-09,최팀장,4,
+TD00014,C610BA75D086B,분당 판교 전시장,ceres,2026-09-11,김대리,5,
+TD00015,C67418302B5BA,대구 수성 전시장,vento,2026-09-08,이과장,5,
+TD00016,CE4FA8EAD9532,부산 해운대 전시장,vento,2026-09-11,최팀장,4,
+TD00017,CDA1809C51C94,광주 상무 전시장,prima,2026-09-13,이과장,5,
+TD00018,C60F1A2548D16,인천 송도 전시장,ravon,2026-09-10,박주임,5,

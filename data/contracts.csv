@@ -1,0 +1,13 @@
+contract_id,customer_id,contract_date,dealer,model,trim,price,sales_rep,financing
+CT00001,C69CE05961B9B,2026-10-06,서울 강남 전시장,ravon,Signature,46300000,김대리,cash
+CT00002,C7B6B8E0B64FA,2026-10-23,인천 송도 전시장,ravon,Signature,46300000,김대리,lease
+CT00003,CD9C798D966D5,2026-10-23,서울 강남 전시장,prima,Premium,39200000,김대리,cash
+CT00004,C712BAF74BDE1,2026-10-11,대구 수성 전시장,ceres,Premium,35300000,정사원,loan
+CT00005,C57455088AC05,2026-10-13,대구 수성 전시장,vento,Premium,47600000,이과장,lease
+CT00006,C975FAD332BC1,2026-09-21,대구 수성 전시장,ravon,Standard,41500000,김대리,lease
+CT00007,C17E641B3CB54,2026-09-21,인천 송도 전시장,ceres,Signature,37700000,김대리,lease
+CT00008,C386A29F4ABE6,2026-09-24,대전 둔산 전시장,prima,Signature,41600000,최팀장,cash
+CT00009,C8E8C66B7C23B,2026-09-30,분당 판교 전시장,vento,Premium,47600000,이과장,loan
+CT00010,C2096C6EB7B40,2026-09-25,대전 둔산 전시장,ravon,Signature,46300000,김대리,loan
+CT00011,CF2AC4A65FAB5,2026-09-10,대전 둔산 전시장,vento,Premium,47600000,이과장,cash
+CT00012,CE4FA8EAD9532,2026-09-23,부산 해운대 전시장,vento,Standard,45200000,박주임,lease

@@ -1,0 +1,7 @@
+visitor,customer_id,lead_id,phone,model,region,source,medium,campaign,run_date
+1,C69CE05961B9B,LMUKY5ZZX0YLC,010-7486-7591,ravon,seoul,instagram,social,ceres_lifestyle,2026-09-28
+2,C7B6B8E0B64FA,LMUKY6CUBAD8F,010-2824-4947,ravon,incheon,kakao,display,vento_family,2026-09-28
+19,CD9C798D966D5,LMUKY8V339I56,010-9748-7778,prima,seoul,youtube,video,ravon_launch,2026-09-28
+28,CF80E360C12E2,LMUKYAF4RZ2CA,010-5979-3473,ravon,daegu,google,cpc,prima_search,2026-09-28
+32,C712BAF74BDE1,LMUKYB8AQIHXV,010-8461-3951,ceres,daegu,naver,cpc,brand_search,2026-09-28
+36,C57455088AC05,LMUKYBYYVWIY5,010-7042-7631,vento,daegu,naver,cpc,brand_search,2026-09-28

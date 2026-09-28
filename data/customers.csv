@@ -1,0 +1,19 @@
+customer_id,region,home_dealer,age_band,gender,acquired_via,first_seen,web_lead_id,first_touch_source
+C69CE05961B9B,seoul,서울 강남 전시장,30s,F,web_lead,2026-09-28,LMUKY5ZZX0YLC,instagram
+C7B6B8E0B64FA,incheon,인천 송도 전시장,20s,M,web_lead,2026-09-28,LMUKY6CUBAD8F,kakao
+CD9C798D966D5,seoul,서울 강남 전시장,40s,F,web_lead,2026-09-28,LMUKY8V339I56,youtube
+CF80E360C12E2,daegu,대구 수성 전시장,40s,M,web_lead,2026-09-28,LMUKYAF4RZ2CA,google
+C712BAF74BDE1,daegu,대구 수성 전시장,30s,M,web_lead,2026-09-28,LMUKYB8AQIHXV,naver
+C57455088AC05,daegu,대구 수성 전시장,40s,M,web_lead,2026-09-28,LMUKYBYYVWIY5,naver
+C975FAD332BC1,daegu,대구 수성 전시장,30s,M,walk_in,2026-09-10,,
+C17E641B3CB54,incheon,인천 송도 전시장,60s+,M,walk_in,2026-09-19,,
+C386A29F4ABE6,daejeon,대전 둔산 전시장,50s,M,walk_in,2026-09-22,,
+C8E8C66B7C23B,gyeonggi,분당 판교 전시장,60s+,M,walk_in,2026-09-15,,
+C2096C6EB7B40,daejeon,대전 둔산 전시장,50s,M,walk_in,2026-09-21,,
+CCF7EE05F4A9A,incheon,인천 송도 전시장,30s,F,walk_in,2026-09-17,,
+CF2AC4A65FAB5,daejeon,대전 둔산 전시장,60s+,M,walk_in,2026-09-09,,
+C610BA75D086B,gyeonggi,분당 판교 전시장,50s,F,walk_in,2026-09-11,,
+C67418302B5BA,daegu,대구 수성 전시장,30s,F,walk_in,2026-09-08,,
+CE4FA8EAD9532,busan,부산 해운대 전시장,30s,M,walk_in,2026-09-11,,
+CDA1809C51C94,gwangju,광주 상무 전시장,30s,F,walk_in,2026-09-13,,
+C60F1A2548D16,incheon,인천 송도 전시장,50s,M,walk_in,2026-09-10,,

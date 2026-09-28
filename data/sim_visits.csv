@@ -1,0 +1,41 @@
+visitor,source,medium,campaign,depth,model,region,customer_id,phone,name,lead_id
+1,instagram,social,ceres_lifestyle,lead,ravon,seoul,C69CE05961B9B,010-7486-7591,이지우,LMUKY5ZZX0YLC
+2,kakao,display,vento_family,lead,ravon,incheon,C7B6B8E0B64FA,010-2824-4947,강수아,LMUKY6CUBAD8F
+3,google,cpc,prima_search,form_start,prima,daegu,,,류예준,
+4,naver,cpc,brand_search,lineup,,,,,,
+5,google,cpc,prima_search,model_detail,ceres,,,,,
+6,instagram,social,ceres_lifestyle,model_detail,ceres,,,,,
+7,youtube,video,ravon_launch,model_detail,ravon,,,,,
+8,kakao,display,vento_family,home_only,,,,,,
+9,youtube,video,ravon_launch,lineup,,,,,,
+10,youtube,video,ravon_launch,lineup,,,,,,
+11,google,cpc,prima_search,model_detail,ravon,,,,,
+12,naver,cpc,brand_search,model_detail,ravon,,,,,
+13,naver,cpc,brand_search,model_detail,vento,,,,,
+14,youtube,video,ravon_launch,model_detail,ravon,,,,,
+15,youtube,video,ravon_launch,home_only,,,,,,
+16,(direct),(none),(not set),model_detail,ceres,,,,,
+17,(direct),(none),(not set),model_detail,ravon,,,,,
+18,kakao,display,vento_family,model_detail,prima,,,,,
+19,youtube,video,ravon_launch,lead,prima,seoul,CD9C798D966D5,010-9748-7778,송민준,LMUKY8V339I56
+20,google,cpc,prima_search,home_only,,,,,,
+21,kakao,display,vento_family,home_only,,,,,,
+22,naver,cpc,brand_search,form_start,ravon,daejeon,,,임수아,
+23,youtube,video,ravon_launch,form_start,vento,gwangju,,,윤예준,
+24,(direct),(none),(not set),lineup,,,,,,
+25,naver,cpc,brand_search,lineup,,,,,,
+26,instagram,social,ceres_lifestyle,lineup,,,,,,
+27,instagram,social,ceres_lifestyle,form_start,prima,seoul,,,오수아,
+28,google,cpc,prima_search,lead,ravon,daegu,CF80E360C12E2,010-5979-3473,최지호,LMUKYAF4RZ2CA
+29,naver,cpc,brand_search,model_detail,ceres,,,,,
+30,instagram,social,ceres_lifestyle,home_only,,,,,,
+31,kakao,display,vento_family,model_detail,vento,,,,,
+32,naver,cpc,brand_search,lead,ceres,daegu,C712BAF74BDE1,010-8461-3951,신시우,LMUKYB8AQIHXV
+33,youtube,video,ravon_launch,model_detail,ceres,,,,,
+34,google,cpc,prima_search,home_only,,,,,,
+35,youtube,video,ravon_launch,model_detail,prima,,,,,
+36,naver,cpc,brand_search,lead,vento,daegu,C57455088AC05,010-7042-7631,김서연,LMUKYBYYVWIY5
+37,(direct),(none),(not set),lineup,,,,,,
+38,naver,cpc,brand_search,lineup,,,,,,
+39,(direct),(none),(not set),model_detail,prima,,,,,
+40,youtube,video,ravon_launch,form_start,prima,gyeonggi,,,정하린,
