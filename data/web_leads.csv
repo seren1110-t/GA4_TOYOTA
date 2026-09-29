@@ -5,3 +5,11 @@ visitor,customer_id,lead_id,phone,model,region,source,medium,campaign,run_date
 28,CF80E360C12E2,LMUKYAF4RZ2CA,010-5979-3473,ravon,daegu,google,cpc,prima_search,2026-09-28
 32,C712BAF74BDE1,LMUKYB8AQIHXV,010-8461-3951,ceres,daegu,naver,cpc,brand_search,2026-09-28
 36,C57455088AC05,LMUKYBYYVWIY5,010-7042-7631,vento,daegu,naver,cpc,brand_search,2026-09-28
+2,CC962AD4317D4,LMULYNJLMXIKZ,010-3662-8090,ravon,busan,instagram,social,ceres_lifestyle,2026-09-29
+4,CB29B4D6B6DE9,LMULYNWDHRLZ2,010-7177-7716,ravon,gyeonggi,naver,cpc,brand_search,2026-09-29
+25,C25D19B395E2E,LMULYRH678G9D,010-4335-8416,ceres,incheon,naver,cpc,brand_search,2026-09-29
+26,CB3BF0B266708,LMULYRRXH7SQH,010-9072-2724,vento,gwangju,naver,cpc,brand_search,2026-09-29
+27,C6D74C3C359D3,LMULYS50X2UW3,010-6157-9880,prima,gyeonggi,youtube,video,ravon_launch,2026-09-29
+35,C4053A83827FE,LMULYT25I000I,010-8438-8626,ravon,gyeonggi,instagram,social,ceres_lifestyle,2026-09-29
+36,C942B748793AB,LMULYTENXZBRY,010-6112-6528,prima,seoul,youtube,video,ravon_launch,2026-09-29
+37,C3447D4CBAC50,LMULYTR0TMXD5,010-7937-2779,vento,gyeonggi,naver,cpc,brand_search,2026-09-29
